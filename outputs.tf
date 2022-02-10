@@ -26,6 +26,7 @@ output "config_map_aws_auth" {
 output "region" {
   description = "AWS region"
   value       = var.region
+  sensitive = true
 }
 
 output "cluster_name" {
